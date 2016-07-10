@@ -2,6 +2,8 @@ package kafka.zookeeper.utils;
 import org.apache.zookeeper.ZooKeeper;
 import java.util.*;
 
+// To get the list of brokers in the kafka cluster
+
 public class KafkaBrokerInfoFetcher {
 
     public static void main(String[] args) throws Exception {
